@@ -542,7 +542,7 @@ def restart_xui() -> None:
 
 
 def build_links(user_uuid: str, domain: str, routes: List[Dict[str, Any]]) -> Dict[str, str]:
-    base_url = f"https://raw.githubusercontent.com/e13815332/subyd/refs/heads/main/cfst.txt"
+    base_url = f"https://home.keon.ccwu.cc/"
     common = {
         "domain": domain,
         "epd": "yes",
